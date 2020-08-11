@@ -1,0 +1,36 @@
+{
+  "name": "proto",
+  "version": "1.0.0",
+  "description": "A simple method (and hopefully middleware) routing layer for serverless Node.js APIs.",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "node",
+    "nextjs",
+    "serverless",
+    "middleware",
+    "router"
+  ],
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterjskaltsis/proto.git"
+  },
+  "author": "Peter Skaltsis - https://peter-s.now.sh",
+  "bugs": {
+    "url": "https://github.com/peterjskaltsis/proto/issues"
+  },
+  "homepage": "https://github.com/peterjskaltsis/proto#readme",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.0.27",
+    "@vercel/node": "^1.7.4",
+    "typescript": "^3.9.7"
+  }
+}

@@ -36,3 +36,4 @@ yarn-error.log*
 # misc
 .dist/
 .vscode/
+/dist
