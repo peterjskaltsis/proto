@@ -1,6 +1,7 @@
 {
   "name": "@peterjskaltsis/proto",
   "version": "1.0.0",
+  "private": false,
   "description": "A simple method (and hopefully middleware) routing layer for serverless Node.js APIs.",
   "keywords": [
     "javascript",
